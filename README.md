@@ -28,13 +28,13 @@ This file alternates the blinking of two LEDs on and off using the GPIO pins on 
 * readButtonPress.c
 * readButtonPress.h
 
-This project reads the number of times the user presses a button and lights up the binary number representing that value with two LEDs using the GPIO pins on the raspberry pi. 
+This project reads the number of times the user presses a button and lights up the binary number representing that value with two LEDs using the GPIO pins on the raspberry pi. It also uses the bcm2835 library.
 
 ### Project 5
 * I2C.c
 * I2C.h
 * PWM.c
-* PWN.h
+* PWM.h
 * MotorHat.c
 * MotorHat.h
 * Robot.c
@@ -45,4 +45,4 @@ This project reads the number of times the user presses a button and lights up t
 * RobotTest.h
 * Makefile
 
-This project moves a robot forward if there are no objects coming up as detected by the sonic sensor otherwise if he is at most 30 cm away from an obstacle he moves backward and tries to go in another direction.
+This project moves a robot forward if there are no objects coming up as detected by the sonic sensor otherwise if he is at most 30 cm away from an obstacle he moves backward and tries to go in another direction. It also uses the bcm2835 library and the I2C protocol.
